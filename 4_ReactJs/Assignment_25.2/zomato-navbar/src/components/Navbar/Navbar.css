@@ -1,0 +1,21 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding-inline: 50px;
+  background-color: rgba(244, 236, 225, 0.784);
+  border-radius: 10px;
+}
+ul {
+  display: flex;
+  gap: 10px;
+}
+li {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}

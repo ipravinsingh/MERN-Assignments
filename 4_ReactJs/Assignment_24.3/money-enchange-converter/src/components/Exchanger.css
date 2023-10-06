@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.select-portion {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
