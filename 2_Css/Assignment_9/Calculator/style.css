@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 280px;
+  margin: 60px auto;
+}
+.grid-container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.button {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  padding: 30px;
+  text-align: end;
+  background-color: black;
+  color: grey;
+  border: none;
+  font-weight: bold;
+}
+.box-c {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.box-0 {
+  grid-area: 5/1/6/4;
+}
+.orange{
+    background-color: orange;
+}
