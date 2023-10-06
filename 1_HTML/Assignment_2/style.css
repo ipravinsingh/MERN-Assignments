@@ -1,0 +1,13 @@
+table, th,td{
+    border: 2px solid rgb(209, 202, 202);
+    border-collapse: collapse;
+}
+td{
+    padding-inline: 50px;
+}
+.green {
+    background-color: lightgreen;
+}
+.brown{
+    background-color: rgb(206, 157, 138);
+}
