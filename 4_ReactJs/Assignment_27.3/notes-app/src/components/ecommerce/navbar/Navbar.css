@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  padding: 20px;
+}
+.cart-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
